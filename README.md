@@ -1,6 +1,6 @@
-ANIPH Machine Learning Model
+Python scripts and data of the paper: **"A Data-Driven Framework for Predicting PHBV Biodegradation-Induced Weight Loss Based on Laboratory and Real-Environment Condition Tests"** by Marianna I Kotzabasaki, Leonidas Mindrinos, Nikolaos P Sotiropoulos, Konstantina V Filippou and Chrysanthos Maraveas, published in Polymers 18(7), 897 (2026). https://www.mdpi.com/2073-4360/18/7/897
 
-This repository contains the machine learning workflow developed in the ANIPH project for predicting weight or mass loss percentage of PHBV polymers.
+This repository contains the machine learning workflow developed for predicting weight or mass loss percentage of PHBV polymers.
 
 This folder includes:
 
@@ -12,5 +12,8 @@ This folder includes:
 
 4) Final training and deployment on Jaqpot notebook (*_regression_LM.ipynb)
 
+The deployed model on Jaqpot (https://app.jaqpot.org/dashboard/models/2343/description) was trained and optimized using Random Forest–based techniques tailored to the available experimental data.
 
-The deployed model was trained and optimized using Random Forest–based techniques tailored to the available experimental data.
+**Acknowledgments**
+
+This work is based on research conducted within the framework of the Horizon Europe European Commission project ANIPH (Grant Agreement No. 101181943). The content of the paper is the sole responsibility of its authors and does not necessarily reflect the views of the European Commission.
